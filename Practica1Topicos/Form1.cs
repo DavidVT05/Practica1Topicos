@@ -28,9 +28,7 @@ namespace Practica1Topicos
                     MessageBox.Show("El contacto se agrego correctamente.");
                     ActualizarTamano(); //se manda llamar la funcion para ajustar el tamaño
                 }
-
             }
-
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -61,7 +59,6 @@ namespace Practica1Topicos
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
-
         }
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
